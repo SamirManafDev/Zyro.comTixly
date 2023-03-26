@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <title>Nav-Bar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assest/css/contact.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navhead fixed-top navbar-light bg-white ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="title">TIXLY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./insights.html">INSIGHTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./store.html">STORE</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-bag"></i>SHOPPING BAG</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <main>
+    <div class="container-fluid ContactContainer">
+      <div class="row">
+        <div class="col-6">
+          <img src="./images/contactimg.avif" alt="">
+        </div>
+        <div class="col-6 RightColums">
+          <h1>Get in touch</h1>
+          <form action="">
+            <div class="FormName">
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" placeholder="Your Name"/>
+            </div>
+            <div class="FormName">
+              <label for="lastname">Last name*</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Your last name"/>
+            </div>
+            <div class="FormName">
+              <label for="email">Your email*</label>
+              <input type="email" name="email" id="email" placeholder="Your email address"/>
+            </div>
+            <div class="FormName">
+              <label for="message">Message*</label>
+              <textarea rows="6" name="message" id="message" placeholder="Enter your message" class="FormMessage"></textarea>
+            
+            </div>
+            <div>
+              <button class="FormBtn">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid FooterContainer">
+      <div class="row">
+        <div class="col-6 p-5 FooterLeft">
+          <div class="row">
+            <div class="col-4">
+              <h3 class="FooterMenu">Address</h3>
+              <h5 class="FooterMenuAlt">3721 Single Street
+                Quincy, MA 02169</h5>
+                <div class="Sosial">
+                  <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                  <a href="https://facebook.com/"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-4">
+              <h3 class="FooterMenu">Contacts</h3>
+              <span class="FooterMenuAlt">123 456 7890
+                info@tixly.com</span>
+            </div>
+            <div class="col-4">
+              <h3 class="FooterMenu">FAQ</h3>
+              <a class="FooterMenuAlt" href="/faq">Shipping & Return policy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 py-4 FooterLeft">
+          <h3 class="FooterMenu">Subscribe to our newsletter</h3>
+          <form class="FooterForm">
+            * <br>
+            <input type="email" name="news-email" id="news-email" placeholder="Your email address"><br>
+            <input type="submit" value="SUMBIT">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./assest/js/main.js"></script>
+</body>
+
+</html>
